@@ -97,6 +97,109 @@ export default function About() {
             </div>
           </div>
 
+          {/* Founders Section */}
+          <div className="mb-24">
+            <div className="text-center mb-14 reveal opacity-0 translate-y-8 transition-all duration-700">
+              <h2 className="text-[#0A1628] text-3xl lg:text-4xl font-bold mb-4">
+                Meet Our Founders
+              </h2>
+              <p className="text-[#0A1628]/60 max-w-2xl mx-auto leading-relaxed">
+                Built by passionate communicators who believe confidence, leadership,
+                and public speaking can transform lives.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Founder 1 */}
+              <div className="reveal opacity-0 translate-y-8 transition-all duration-700 bg-white rounded-2xl border border-[#0A1628]/5 shadow-sm overflow-hidden hover:shadow-lg">
+                <div className="h-72 bg-[#EDE8DA] flex items-center justify-center">
+                  {/* Replace with image */}
+                  <span className="text-[#0A1628]/30 text-sm">
+                    Founder Image
+                  </span>
+                </div>
+
+                {/* Example if using real image later */}
+                {/* 
+                <img
+                  src="/images/founder-1.jpg"
+                  alt="Founder Name"
+                  className="h-72 w-full object-cover"
+                />
+                */}
+
+                <div className="p-6">
+                  <h3 className="text-[#0A1628] text-xl font-bold">
+                    Aarav Mehta
+                  </h3>
+                  <p className="text-[#C9A84C] text-sm font-medium mt-1">
+                    Co-Founder & President
+                  </p>
+
+                  <p className="mt-4 text-[#0A1628]/65 text-sm leading-relaxed">
+                    Aarav started Speakers Club after overcoming severe stage fright
+                    during his college years. Today, he mentors students and young
+                    professionals to become impactful and confident speakers.
+                  </p>
+                </div>
+              </div>
+
+              {/* Founder 2 */}
+              <div
+                className="reveal opacity-0 translate-y-8 transition-all duration-700 bg-white rounded-2xl border border-[#0A1628]/5 shadow-sm overflow-hidden hover:shadow-lg"
+                style={{ transitionDelay: "0.2s" }}
+              >
+                <div className="h-72 bg-[#EDE8DA] flex items-center justify-center">
+                  <span className="text-[#0A1628]/30 text-sm">
+                    Founder Image
+                  </span>
+                </div>
+
+                <div className="p-6">
+                  <h3 className="text-[#0A1628] text-xl font-bold">
+                    Sophia Carter
+                  </h3>
+                  <p className="text-[#C9A84C] text-sm font-medium mt-1">
+                    Co-Founder & Communication Coach
+                  </p>
+
+                  <p className="mt-4 text-[#0A1628]/65 text-sm leading-relaxed">
+                    Sophia believes communication is the foundation of leadership.
+                    With years of debate and training experience, she helps members
+                    develop clarity, confidence, and authentic presence.
+                  </p>
+                </div>
+              </div>
+
+              {/* Founder 3 */}
+              <div
+                className="reveal opacity-0 translate-y-8 transition-all duration-700 bg-white rounded-2xl border border-[#0A1628]/5 shadow-sm overflow-hidden hover:shadow-lg"
+                style={{ transitionDelay: "0.4s" }}
+              >
+                <div className="h-72 bg-[#EDE8DA] flex items-center justify-center">
+                  <span className="text-[#0A1628]/30 text-sm">
+                    Founder Image
+                  </span>
+                </div>
+
+                <div className="p-6">
+                  <h3 className="text-[#0A1628] text-xl font-bold">
+                    Daniel Brooks
+                  </h3>
+                  <p className="text-[#C9A84C] text-sm font-medium mt-1">
+                    Co-Founder & Community Director
+                  </p>
+
+                  <p className="mt-4 text-[#0A1628]/65 text-sm leading-relaxed">
+                    Daniel focuses on building an encouraging environment where every
+                    member feels heard. His workshops emphasize storytelling,
+                    leadership, and real-world speaking confidence.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Contact Section */}
           <div className="bg-white rounded-2xl shadow-sm border border-[#0A1628]/5 overflow-hidden">
             <div className="grid lg:grid-cols-2">
