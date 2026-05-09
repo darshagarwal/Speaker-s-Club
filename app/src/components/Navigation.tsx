@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
-import { Menu, X, Mic } from "lucide-react";
+import { Menu, X} from "lucide-react";
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -36,8 +36,12 @@ export default function Navigation() {
         <div className="flex h-[72px] items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#C9A84C]/15 group-hover:bg-[#C9A84C]/25 transition-colors">
-              <Mic className="h-5 w-5 text-[#C9A84C]" />
+            <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full bg-[#C9A84C]/15">
+              <img
+                src="/images/logo.jpeg"
+                alt="Speakers Club Logo"
+                className="h-full w-full object-cover"
+              />
             </div>
 
             <span className="text-lg font-bold tracking-wide text-[#D4BA6A]">
