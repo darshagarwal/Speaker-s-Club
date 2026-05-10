@@ -42,7 +42,7 @@ export default function Navigation() {
             >
             <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full bg-[#C9A84C]/15">
               <img
-                src="/images/logo.png"
+                src="/images/logo.jpeg"
                 alt="Speakers Club Logo"
                 className="h-full w-full object-cover"
               />
