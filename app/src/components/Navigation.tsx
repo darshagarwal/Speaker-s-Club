@@ -35,10 +35,14 @@ export default function Navigation() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-[72px] items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
+          <Link
+            to="/"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="flex items-center gap-3 group"
+            >
             <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full bg-[#C9A84C]/15">
               <img
-                src="/images/logo.jpeg"
+                src="/images/logo.png"
                 alt="Speakers Club Logo"
                 className="h-full w-full object-cover"
               />
