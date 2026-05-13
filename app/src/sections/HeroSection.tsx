@@ -69,7 +69,7 @@ export default function HeroSection() {
               style={{ transitionDelay: "0.7s" }}
             >
               <Link
-                to="/login"
+                to="/about"
                 className="inline-flex items-center rounded-full bg-[#C9A84C] px-8 py-3.5 text-sm font-semibold text-[#0A1628] hover:bg-[#D4BA6A] transition-all hover:-translate-y-0.5 shadow-lg shadow-[#C9A84C]/20"
               >
                 Join Speakers Club

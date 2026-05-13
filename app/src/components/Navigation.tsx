@@ -116,7 +116,7 @@ export default function Navigation() {
               <Link
                 to="/about"
                 className="block text-center rounded-full bg-[#C9A84C] px-5 py-3 text-sm font-semibold text-[#0A1628]"
-              >
+                >
                 Join Speakers Club
               </Link>
             </div>
